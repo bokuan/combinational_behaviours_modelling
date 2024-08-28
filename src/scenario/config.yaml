@@ -1,0 +1,24 @@
+thresholds:
+  velocity_x_max: 200
+  velocity_y_max: 200
+  velocity_z_max: 200
+  velocity_x_min: -1
+  position_y_min: -5
+  position_y_max: 5
+  position_x_max: 40
+
+lane_change:
+  vehicle_speed_min: 30
+
+emergency_brake:
+  brake_pedal_position_min: 15
+  vehicle_speed_min: 30
+
+turning:
+  steering_wheel_angle_min: 0.4
+  vehicle_speed_min: 60
+
+congestion:
+  object_count_min: 4
+  avg_velocity_max: 15
+  ego_velocity_max: 15
